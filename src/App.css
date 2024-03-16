@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nevMain{
+    z-index: 1000;
+    border-top: 1px solid gray;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 78px;
+    position:fixed ;
+    bottom: 0;
+    font-family: Humane, sans-serif;
+    font-size: 22px;
+}
+.logo{
+    color: white;
+    width: 58.6%;
+    display: flex;
+    align-items: center;
+}
+.Nbar{
+    color: rgba(187, 187, 187, 0.79);
+    width: 41.4%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Nbar>div{
+    font-weight:lighter;
+}
+.Nbar>div:hover{
+    color: white;
+    cursor: pointer;
+}
+.mobD{
+    display: none;
+}
+.mobD:hover{
+    cursor: pointer;
+}
+.home{
+    background-color: black;
+    color: rgba(187, 187, 187, 0.79);
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.home_backgroundVideo{
+        background-position: 50%;
+        background-size: cover;
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: calc(100svh - 72px);
+}
+.vidcont{
+    font-family: Humane, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 364px;
+    position: relative;
+}
+.vidcont>div{
+    color: rgb(222, 216, 216);
+}
+#lernbtn{
+    border: none;
+    background-color: rgba(62, 62, 62, 0.578);
+}
+.homebtn{
+    height: 51px;
+    width: 201px;
+    font-size: larger;
+    font-weight: 600;
+}
+.homebtn:hover{
+    cursor: pointer;
+}
+.headFilm{
+    box-sizing: border-box;
+    font-family: Humane, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 28px;
+}
+.headFilm>h3{
+    color: white;
+}
+.headFilm>img{
+    width: 34px;
+}
+.headFilm>img:hover{
+    cursor: pointer;
+}
+.cont{
+    height: 100%;
+    margin-top: 6vh;
+    margin-bottom: 78px;
+}
+.cont2{
+    padding: 24px;
+    font-family: Humane, sans-serif;
+    font-size:15px;
+}
+.cont3{
+    font-family: Humane, sans-serif;
+    padding-top: 52px;
+    padding-bottom: 24px;
+}
+.cont3>h1{
+    margin-left: 24px;
+    font-size: 46px;
+    font-weight: lighter;
+}
+.cont41>div:hover{
+    cursor: pointer;
+    color: white;
+}
+button{
+    font-size: medium;
+    margin-left: 24px;
+    width: 196px;
+    height: 45px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+button:hover{
+    background-color: rgba(41, 41, 41, 0.8);
+}
+.cont4{
+    margin-top: 42px;
+    display: flex;
+}
+.cont41{
+    display: flex;
+    width: 68%;
+    font-family: Humane, sans-serif;
+}
+.cont41>div{
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+}
+.cont42{
+    font-family: Humane, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    align-items: center;
+}
+.cont42>img{
+    width: 39px;
+    height: 39px;
+}
+.cont42>img:hover{
+    cursor: pointer;
+    opacity: 65%;
+}
+.footer{
+    display: none;
+}
+
+.expanded-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .expanded-container.visible {
+    display: flex;
+  }
+  
+  .expanded-container>div:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.433);
+  }
+
+  .form-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+  
+  .fombtn {
+    width: 87.6%;
+    padding: 10px;
+    background-color: rgb(0, 255, 224);
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(0, 116, 103);
+    color: white;
+  }
+  .other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .other>p{
+    margin-top: 4px;
+    width: 80%;
+    text-align: center;
+  }
+ @media screen and (max-width:1155px) {
+    .nevMain{
+        position: fixed;
+        top: 0;
+    }
+    .headFilm{
+        margin-top: 105px;
+    }
+    .vidcont{
+        margin-top: 264px;
+    }
+    .cont{
+        margin-top: 4vh;
+    }
+    .cont3{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont4{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont41{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont41>div{
+        margin-top: 9px;
+    }
+    .cont42{
+        width: 21vw;
+        margin-top: 35px;
+        margin-left: 9.6px;
+    }
+    .footer{
+        margin-top: 18px;
+        margin-left: 17px;
+        display: block;
+    }
+    .footer1{
+        display: none;
+    }
+    .Nbar{
+        display: none;
+    }
+    .nevMain{
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobD{
+        width: 12%;
+        display: flex;
+        align-items: center;
+    }
+    .expanded-container {
+        background-color: black;
+        height: 96vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        z-index: 1;
+      }
+      .expanded-container>div{
+        margin-top: 15px;
+      }
+      .expanded-container>div:hover{
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.433);
+      }
+      .btn{
+        display: flex;
+        flex-direction: column;
+      }
+      .homebtn{
+        margin-top: 8px;
+      }
+      .expanded-container>span{
+        font-size: 1px;
+        position: fixed;
+        bottom: 2px;
+      }
+ }
