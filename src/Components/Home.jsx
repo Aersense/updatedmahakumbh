@@ -52,7 +52,7 @@ const Home = () => {
 
         <div className='headFilm'>
         <h3>Watch the film</h3>
-        <img src={vid} alt="" />
+        <a href="https://www.youtube.com/watch?v=WujP0DXTXw8"><img src={vid} alt="Aersense Youtube Channel"/></a>
         </div>
         <div className='vidcont'>
             <h1 style={{color:"white",fontSize:"55px"}}>AERSENSE</h1>
