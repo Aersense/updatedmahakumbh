@@ -7,7 +7,7 @@ const ExpandedContainer = ({ hideExpandedContainer }) => {
   return (
     <div className="expanded-container">
       <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none",marginTop:"8px"}} to='/' onClick={hideExpandedContainer}>Home</Link>
-      <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none",marginTop:"8px"}} to="/aboutus" onClick={hideExpandedContainer}>Aboutus</Link>
+      <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none",marginTop:"8px"}} to="/aboutus" onClick={hideExpandedContainer}>About Us</Link>
       <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none",marginTop:"8px"}} to="/support" onClick={hideExpandedContainer}>Support</Link>
     </div>
   );
