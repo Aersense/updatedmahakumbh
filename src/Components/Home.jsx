@@ -69,7 +69,7 @@ const Home = () => {
                 setIsRotated(!isRotated);
             }}
             >
-            WaitListPro
+            Wait List Pro
             </button> 
             {isRotated && <ExpandedContainer isVisible={isRotated} />}
 
