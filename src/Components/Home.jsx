@@ -57,7 +57,7 @@ const Home = () => {
         <div className='vidcont'>
             <h1 style={{color:"white",fontSize:"55px"}}>AERSENSE</h1>
             <h3 style={{color:"white",fontSize:"22px",marginTop:"11px"}}>Starting at $36</h3>
-            <br /><div>Join the WaitListPro by March 31st to receive the first 3</div>
+            <br /><div>Join the Wait List Pro by March 31st to receive the first 3</div>
             <div>months of the AERSENSE Subscription for free.</div>
             <br /> <br /> <br />
             <div className="btn">
