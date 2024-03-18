@@ -2,7 +2,7 @@ import logo from "../images/logo.png";
 import plus from "../images/plus.png";
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+ 
 const ExpandedContainer = ({ hideExpandedContainer }) => {
   return (
     <div className="expanded-container">
@@ -30,7 +30,7 @@ const NevBar = () => {
       </div>
       <div className='Nbar'>
         <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none"}} to='/' onClick={hideExpandedContainer}>Home</Link>
-        <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none"}} to="/aboutus" onClick={hideExpandedContainer}>Aboutus</Link>
+        <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none"}} to="/aboutus" onClick={hideExpandedContainer}>About Us</Link>
         <Link style={{color:"rgba(187, 187, 187, 0.79)",textDecoration:"none"}} to="/support" onClick={hideExpandedContainer}>Support</Link>
       </div>
       <div className='mobD'>
